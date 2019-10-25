@@ -22,7 +22,7 @@
     "prepublish": "npm run build",
     "build-lib": "rm -rf lib/*; babel src --out-dir lib",
     "build-demo": "rm demo/demo.js; webpack demo/demo.jsx demo/demo.js",
-    "build": "npm run build-lib && npm run build-demo"
+    "build": "npm run build-lib"
   },
   "peerDependencies": {
     "react": "<16.0.0 || ^16.0.0",
